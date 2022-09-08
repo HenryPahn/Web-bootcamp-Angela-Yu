@@ -1,0 +1,28 @@
+div {
+    background-color: skyblue;
+}
+
+.pic:hover {
+    background-color:yellow;
+    border-style: dotted groove none dashed;
+}
+
+img {
+    height: 50px;
+}
+
+
+
+h1 {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+p {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}

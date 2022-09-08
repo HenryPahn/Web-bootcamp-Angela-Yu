@@ -1,0 +1,16 @@
+#title {
+    color: gold;
+}
+
+img:hover {
+    background-color: darkturquoise;
+    height: 10px;
+}
+
+.pizza {
+    background-color: green;
+}
+
+.bacon{
+    background-color: red;
+}
