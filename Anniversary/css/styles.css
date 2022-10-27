@@ -195,11 +195,22 @@ body {
     text-align: center;
     font-weight: bold;
     padding: 2% 0;
-    color: #967E76;
+    
     line-height: 2.5;
     font-family: 'Cormorant', serif;
 }
 
-#body-2:hover {
+.body-2-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.body-2-heading-2 {
+    color: #967E76;
+    font-weight: bold;
+}
+
+.body-2-heading-2:hover {
     color: #fff;
 }
+
