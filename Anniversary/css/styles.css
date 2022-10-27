@@ -1,0 +1,205 @@
+body {
+    line-height: 1.5;
+    font-family: 'Cormorant', serif;
+    font-size: 140%;
+}
+
+/* welcome section */
+#welcome {
+    background-color: #E9DAC1;
+    padding: 5% 15%;
+}
+
+.welcome-message {
+    margin: 6% auto;
+    line-height: 1.5;
+    font-family: 'Cormorant', serif;
+}
+
+.welcome-heading-1 {
+    margin-bottom: 5%;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
+
+.mission-1 {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.welcome-image {
+    margin-left: 20%;
+    border-radius: 10%;
+}
+
+/* body-1 section */
+#body-1 {
+    padding: 4% 10%;
+}
+
+
+/* body-1-col-1 */
+.body-1-col-1 {
+    padding:7% 0;
+    /* display: grid;
+    place-items: center; */
+    text-align: right;
+}
+
+.body-1-heading-1 {
+    font-weight: bold;
+}
+
+/* body-1-col-2 */
+.body-1-image{
+    border-radius: 50%;
+}
+
+/* body-1-col-3  */
+.body-1-col-3 {
+    padding: 8.5% 0;
+    text-align: left;
+
+}
+
+.mission-2 {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.body-1-heading-2 {
+    font-weight: bold;
+    color: #000;
+}
+
+.body-1-col-3-paragraph {
+    margin: 5% auto 6%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 56px solid #E9DAC1;
+}
+
+.button-bar {
+    margin-top: 9%;
+}
+
+.circle {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: #E9DAC1;
+    display: grid;
+    place-items: center;
+    transform: scale(0.95);
+}
+
+
+.progress-line {
+    background-color: #E9DAC1;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 4px;
+    width: 92.5%;
+}
+
+.progress-line:hover {
+    background-color: #000;
+}
+
+.progress-button {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: #E9DAC1;
+    display: grid;
+    place-items: center;
+    transform: scale(0.95);
+    margin-left: 20%;
+}
+
+.return-button {
+    transform: rotate(-90deg);
+}
+
+.return-button:hover {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 56px solid #000;
+}
+
+.progress-button {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.play-button-middle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 18px solid #fff;
+    transform: rotate(90deg);
+    margin-left: 0.2rem;
+}
+
+.circle:hover {
+    background-color: #000;
+}
+
+.skip-button {
+    transform: rotate(90deg);
+}
+
+.skip-button:hover {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 56px solid #000;
+}
+
+/* message section */
+#message {
+    background-color: #F7ECDE;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #e29309;
+}
+
+.carousel-inner {
+    padding: 5% 0;
+}
+
+.message-images {
+    border-radius: 10%;
+}
+
+.message-paragrahp {
+    margin-top: 3.9%;
+}
+
+.carousel-control-prev:hover{
+    background: #e29309;
+}
+.carousel-control-next:hover{
+    background: #e29309;
+}
+
+/* body-2 */
+#body-2 {
+    background-color: #F7ECDE;
+    text-align: center;
+    font-weight: bold;
+    padding: 2% 0;
+    color: #967E76;
+    line-height: 2.5;
+    font-family: 'Cormorant', serif;
+}
+
+#body-2:hover {
+    color: #fff;
+}
