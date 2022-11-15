@@ -35,6 +35,7 @@ body {
 /* body-1 section */
 #body-1 {
     padding: 4% 10%;
+    background-color: #fff;
 }
 
 
@@ -98,17 +99,12 @@ body {
     transform: scale(0.95);
 }
 
-
-.progress-line {
-    background-color: #E9DAC1;
-    border-radius: 5px;
-    cursor: pointer;
-    height: 4px;
-    width: 92.5%;
+.form-range {
+    width: 90%;
 }
 
-.progress-line:hover {
-    background-color: #000;
+.form-range::-webkit-slider-thumb {
+    background-color: #E9DAC1;
 }
 
 .progress-button {
@@ -195,7 +191,6 @@ body {
     text-align: center;
     font-weight: bold;
     padding: 2% 0;
-    
     line-height: 2.5;
     font-family: 'Cormorant', serif;
 }
@@ -213,4 +208,56 @@ body {
 .body-2-heading-2:hover {
     color: #fff;
 }
+
+/* body-3 section */
+#body-3 {
+    padding: 5% 0;
+    position: relative;
+}
+
+.body-3-card {
+    border-color: #E9DAC1;
+    border-radius: 1%;
+    padding: 2% 2% 5%;
+}
+
+.body-3-heading-5 {
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+  
+.image-13 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.image-14 {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    margin-top: 56.5%;
+    margin-left: 46.5%;
+    transition: .5s ease;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+  
+.container:hover .image-14 {
+    opacity: 1;
+}
+
+.body-3-card-context {
+    line-height: 2;
+}
+
 
