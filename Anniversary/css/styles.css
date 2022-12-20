@@ -348,6 +348,11 @@ body {
     line-height: 2;
 }
 
+#body-3 a {
+    text-decoration: none;
+    color: #000;
+}
+
 /* body-4 section */
 #body-4 div {
     text-align: center;
